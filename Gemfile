@@ -45,11 +45,12 @@ gem 'simple_form'
 gem 'devise'
 
 # gem carrierwave 
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave'
+gem 'carrierwave-aws'
 
 # gem figaro
 gem 'figaro'
-
+# gem fog
 gem 'fog'
 
 # gem MiniMagick for image manipulation
