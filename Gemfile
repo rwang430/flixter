@@ -53,12 +53,16 @@ gem 'figaro'
 # gem fog
 gem 'fog'
 
+# gem stripe for payment system
+gem 'stripe'
+
 # gem MiniMagick for image manipulation
 gem "mini_magick"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry'
 end
 
 group :development do
