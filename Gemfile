@@ -59,6 +59,9 @@ gem 'stripe'
 # gem MiniMagick for image manipulation
 gem "mini_magick"
 
+# gem for reordering positions
+gem 'ranked-model'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
