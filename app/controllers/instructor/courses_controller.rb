@@ -17,9 +17,10 @@ class Instructor::CoursesController < ApplicationController
 
   def show
     @section = Section.new
+    @lesson = Lesson.new
   end
 
-  private
+private
 
   def require_authorized_for_current_course
     if current_course.user != current_user
