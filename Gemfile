@@ -68,6 +68,9 @@ gem 'file_validators'
 # gem jquery UI
 gem 'jquery-ui-rails'
 
+# gem font awesome for web fonts and stylesheets
+gem 'font-awesome-rails'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
